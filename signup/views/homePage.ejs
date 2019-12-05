@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>!Welcome to Mylearning........</h1>
+    <table border="2px">
+        <tr>
+            <th>S.no</th>
+            <th>Course Name</th>
+            <th>Target Audience</th>
+            <th>Duration</th>
+            <th>Location</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+        </tr>
+        <% data.forEach(function(user){ %>
+            <tr>
+                    <td><%= user.SerialNumber %></td>
+                    <td><%= user.courseName %></td>
+                    <td><%= user.targetAudience %></td>
+                    <td><%= user.duration %></td>
+                    <td><%= user.location %></td>
+                    <td><%= user.startDate %></td>
+                    <td><%= user.endDate %></td>
+                    <td><%= user.startTime %></td>
+                    <td><%= user.endTime %></td>
+                </tr>
+          <% })%>
+        
+        
+    </table>
+    <form action="http://localhost:4848/logout">
+        <input type="submit" value="logout">
+    </form>
+</body>
+
+</html>

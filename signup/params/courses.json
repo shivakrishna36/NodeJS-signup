@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "SerialNumber": 1,
+            "courseName": "Java",
+            "targetAudience": "Cloud",
+            "location":"Banglore",
+            "duration": 10,
+            "startDate": "25-may-2019",
+            "endDate": "26-may-2019",
+            "startTime": "10:00AM",
+            "endTime": "12:00PM"
+        },
+        {
+            "SerialNumber": 2,
+            "courseName": "JavaScript",
+            "targetAudience": "All",
+            "location":"Hyderabad",
+            "duration": 20,
+            "startDate": "28-may-2019",
+            "endDate": "29-may-2019",
+            "startTime": "9:00AM",
+            "endTime": "12:00PM"
+        },
+        {
+            "SerialNumber": 3,
+            "courseName": "JavaScript",
+            "targetAudience": "All",
+            "location":"Chennai",
+            "duration": 20,
+            "startDate": "28-may-2019",
+            "endDate": "29-may-2019",
+            "startTime": "9:00AM",
+            "endTime": "12:00PM"
+        },
+        {
+            "SerialNumber": 4,
+            "courseName": "JavaScript",
+            "targetAudience": "All",
+            "location":"Hyderabad",
+            "duration": 20,
+            "startDate": "28-may-2019",
+            "endDate": "29-may-2019",
+            "startTime": "9:00AM",
+            "endTime": "12:00PM"
+        }
+    ]
+}
